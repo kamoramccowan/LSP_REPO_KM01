@@ -1,0 +1,24 @@
+Classes: 
+1: Book 
+2: Member
+3: Librarian
+4: Library
+
+Responsibilities for #1 : Stores the details of the book such as the title, the author, ISBN, and availability status
+Update the availability status when the book is borrowed or returned
+#2: Borrow max 3 available books at a time
+Return borrowed books and update the record
+#3: Add new books to the libraries' collection
+Removed books that are lost or out-dated
+#4: Manage the list of all the books as well as their availability
+Take account for what books are borrowed and by whom. 
+
+Collaborators #1: Member - book updates its availability when its borrowed or returned by a member.
+Library - book info is maintained by the library system
+#2: Book - to help manage borrow or return
+Library - check if borrowing is possible and updates the records
+#3: Library - to add or remove books and view the status
+Book - directly adds/removes Book instances in Library
+#4: Book - has entire collection of books
+Member - tracks which Members are borrowing which Books 
+Librarian - lets Librarian perform operations 
