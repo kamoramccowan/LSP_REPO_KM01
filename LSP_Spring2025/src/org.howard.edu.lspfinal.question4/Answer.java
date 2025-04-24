@@ -15,8 +15,7 @@ package org.howard.edu.lspfinal.question4;
  * there’s no code reuse because interfaces don’t include actual method logic, just signatures.
  * 
  * So overall, using inheritance as a pattern isn’t always a good idea, especially if it assumes 
- * all subclasses should behave the same. That was something clearly pointed out in the 
- * “Design Trade-offs” slide from Lecture 12.
+ * all subclasses should behave the same. That was something clearly pointed out in Lecture 12.
  */
 public class Answer {
     // No code here
